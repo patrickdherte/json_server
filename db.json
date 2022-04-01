@@ -1,57 +1,60 @@
-{ 
-    "data": [ 
-    { 
-        "name": "value", 
-        "label": "FHR", 
-        "type": "numeric", 
-        "ctrl": "spinner", 
-        "value": { 
-            "min": 0, 
-            "max": 300, 
-            "current": 145 
-        }, 
-        "colors": [] 
-    }, 
-    { 
-        "name": "quality", 
-        "label": "Quality", 
-        "type": "numeric", 
-        "ctrl": "slider", 
-        "value": { 
-        "min": 0, 
-        "max": 15, 
-        "current": 15 
-        }, 
-        "colors": [ 
-        { 
-            "min": 0, 
-            "max": 5, 
-            "color": "#fff000" 
-        }, 
-        { 
-            "min": 6, 
-            "max": 10, 
-            "color": "#fff4444" 
-        }, 
-        { 
-            "min": 11, 
-            "max": 15, 
-            "color": "#fff9999" 
-        } 
-        ] 
-    }, 
-    { 
-        "name": "status", 
-        "label": "Fetal Movement", 
-        "type": "boolean", 
-        "ctrl": "checkbox", 
-        "value": { 
-            "min": 0, 
-            "max": 1, 
-            "current": 1 
-        }, 
-        "colors": [] 
-    }
-]
-} 
-    
+{
+   "data":[
+      {
+         "name":"value",
+         "label":"FHR",
+         "type":"numeric",
+         "ctrl":"spinner",
+         "value":{
+            "min":0,
+            "max":300,
+            "current":145
+         },
+         "colors":[
+            
+         ]
+      },
+      {
+         "name":"quality",
+         "label":"Quality",
+         "type":"numeric",
+         "ctrl":"slider",
+         "value":{
+            "min":0,
+            "max":15,
+            "current":15
+         },
+         "colors":[
+            {
+               "min":0,
+               "max":5,
+               "color":"#fff000"
+            },
+            {
+               "min":6,
+               "max":10,
+               "color":"#fff4444"
+            },
+            {
+               "min":11,
+               "max":15,
+               "color":"#fff9999"
+            }
+         ]
+      },
+      {
+         "name":"status",
+         "label":"Fetal Movement",
+         "type":"boolean",
+         "ctrl":"checkbox",
+         "value":{
+            "min":0,
+            "max":1,
+            "current":1
+         },
+         "colors":[
+            
+         ]
+      }
+   ]
+}
