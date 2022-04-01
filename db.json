@@ -1,5 +1,6 @@
-export const transducerConfigUS = 
-[ 
+{ 
+    "data":  
+    [ 
     { 
         "name": "value", 
         "label": "FHR", 
@@ -52,5 +53,6 @@ export const transducerConfigUS =
         }, 
         "colors": [] 
     },
-]; 
+]
+} 
     
