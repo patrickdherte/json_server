@@ -1,14 +1,14 @@
 {
-   "data":[
+   "us_config":[
       {
          "name":"value",
-         "label":"EffeAgaErre",
+         "label":"Fetal HR",
          "type":"numeric",
          "ctrl":"spinner",
          "value":{
             "min":0,
             "max":300,
-            "current":145
+            "current":100
          },
          "colors":[
             
@@ -56,5 +56,163 @@
             
          ]
       }
+   ],
+   toco_config:[
+   { 
+        name: "value", 
+        label: "TOCO", 
+        type: "numeric", 
+        ctrl: "spinner", 
+        value: { 
+            min: 0, 
+            max: 20, 
+            current: 25 
+        }, 
+        colors: [] 
+    }, 
+   ],
+   mp_config:[ 
+   { 
+        name: "value", 
+        label: "FHR", 
+        type: "numeric", 
+        ctrl: "spinner", 
+        value: { 
+            min: 0, 
+            max: 300, 
+            current: 145 
+        }, 
+        colors: [] 
+    }, 
+    { 
+        name: "quality", 
+        label: "Quality", 
+        type: "numeric", 
+        ctrl: "slider", 
+        value: { 
+        min: 0, 
+        max: 15, 
+        current: 15 
+        }, 
+        colors: [ 
+        { 
+            min: 0, 
+            max: 5, 
+            color: "#fff000" 
+        }, 
+        { 
+            min: 6, 
+            max: 10, 
+            color: "#fff4444" 
+        }, 
+        { 
+            min: 11, 
+            max: 15, 
+            color: "#fff9999" 
+        } 
+        ] 
+    }, 
+    ],
+    decg_config:[
+    {
+         "name":"value",
+         "label":"Fetal HR",
+         "type":"numeric",
+         "ctrl":"spinner",
+         "value":{
+            "min":0,
+            "max":300,
+            "current":100
+         },
+         "colors":[
+            
+         ]
+      },
+      {
+         "name":"quality",
+         "label":"Quality",
+         "type":"numeric",
+         "ctrl":"slider",
+         "value":{
+            "min":0,
+            "max":15,
+            "current":15
+         },
+         "colors":[
+            {
+               "min":0,
+               "max":5,
+               "color":"#fff000"
+            },
+            {
+               "min":6,
+               "max":10,
+               "color":"#fff4444"
+            },
+            {
+               "min":11,
+               "max":15,
+               "color":"#fff9999"
+            }
+         ]
+      },
+       {
+         "name":"status",
+         "label":"Leads Off",
+         "type":"boolean",
+         "ctrl":"checkbox",
+         "value":{
+            "min":0,
+            "max":1,
+            "current":1
+         },
+         "colors":[
+            
+         ]
+      }
+    ],
+   mecg_config:[
+   {
+         "name":"value",
+         "label":"Maternal HR",
+         "type":"numeric",
+         "ctrl":"spinner",
+         "value":{
+            "min":0,
+            "max":300,
+            "current":100
+         },
+         "colors":[
+            
+         ]
+      },
+      {
+         "name":"quality",
+         "label":"Quality",
+         "type":"numeric",
+         "ctrl":"slider",
+         "value":{
+            "min":0,
+            "max":15,
+            "current":15
+         },
+         "colors":[
+            {
+               "min":0,
+               "max":5,
+               "color":"#fff000"
+            },
+            {
+               "min":6,
+               "max":10,
+               "color":"#fff4444"
+            },
+            {
+               "min":11,
+               "max":15,
+               "color":"#fff9999"
+            }
+         ]
+      },
    ]
 }
