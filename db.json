@@ -2,7 +2,7 @@
    "data":[
       {
          "name":"value",
-         "label":"FHR",
+         "label":"EffeAgaErre",
          "type":"numeric",
          "ctrl":"spinner",
          "value":{
