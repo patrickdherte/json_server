@@ -57,63 +57,63 @@
          ]
       },
    ],
-   toco_config:[
+   "toco_config":[
    { 
-        name: "value", 
-        label: "TOCO", 
-        type: "numeric", 
-        ctrl: "spinner", 
-        value: { 
-            min: 0, 
-            max: 20, 
-            current: 25 
+        "name": "value", 
+        "label": "TOCO", 
+        "type": "numeric", 
+        "ctrl": "spinner", 
+        "value": { 
+            "min": 0, 
+            "max": 20, 
+            "current": 25 
         }, 
-        colors: [] 
+        "colors": [] 
     }, 
    ],
-   mp_config:[ 
+   "mp_config":[ 
    { 
-        name: "value", 
-        label: "FHR", 
-        type: "numeric", 
-        ctrl: "spinner", 
-        value: { 
-            min: 0, 
-            max: 300, 
-            current: 145 
+        "name": "value", 
+        "label": "FHR", 
+        "type": "numeric", 
+        "ctrl": "spinner", 
+        "value": { 
+            "min": 0, 
+            "max": 300, 
+            "current": 145 
         }, 
-        colors: [] 
+        "colors": [] 
     }, 
     { 
-        name: "quality", 
-        label: "Quality", 
-        type: "numeric", 
-        ctrl: "slider", 
-        value: { 
-        min: 0, 
-        max: 15, 
-        current: 15 
+        "name": "quality", 
+        "label": "Quality", 
+        "type": "numeric", 
+        "ctrl": "slider", 
+        "value": { 
+        "min": 0, 
+        "max": 15, 
+        "current": 15 
         }, 
-        colors: [ 
+        "colors": [ 
         { 
-            min: 0, 
-            max: 5, 
-            color: "#fff000" 
-        }, 
-        { 
-            min: 6, 
-            max: 10, 
-            color: "#fff4444" 
+            "min": 0, 
+            "max": 5, 
+            "color": "#fff000" 
         }, 
         { 
-            min: 11, 
-            max: 15, 
-            color: "#fff9999" 
+            "min": 6, 
+            "max": 10, 
+            "color": "#fff4444" 
+        }, 
+        { 
+            "min": 11, 
+            "max": 15, 
+            "color": "#fff9999" 
         } 
         ] 
     }, 
     ],
-    decg_config:[
+    "decg_config":[
     {
          "name":"value",
          "label":"Fetal HR",
@@ -171,7 +171,7 @@
          ]
       }
     ],
-   mecg_config:[
+   "mecg_config":[
    {
          "name":"value",
          "label":"Maternal HR",
